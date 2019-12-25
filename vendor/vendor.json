@@ -237,6 +237,14 @@
 			"revisionTime": "2018-02-21T22:33:40Z"
 		},
 		{
+			"checksumSHA1": "vkT5xiHfjiNChZrcPKqzhA/EBsU=",
+			"path": "github.com/ipfs/go-cid",
+			"revision": "3da5bbbe45260437a44f777e6b2e5effa2606901",
+			"revisionTime": "2019-12-09T12:47:25Z",
+			"version": "=v0.0.4",
+			"versionExact": "v0.0.4"
+		},
+		{
 			"checksumSHA1": "vTGKMIfiMwz43y5bsgx9PrL+AVw=",
 			"path": "github.com/jackpal/go-nat-pmp",
 			"revision": "1fa385a6f45828c83361136b45b1a21a12139493",
@@ -281,10 +289,46 @@
 			"revisionTime": "2018-04-08T05:53:51Z"
 		},
 		{
+			"checksumSHA1": "mJQtsTCZGhCmjdFtXBWryZSri/o=",
+			"path": "github.com/minio/blake2b-simd",
+			"revision": "3f5f724cb5b182a5c278d6d3d55b40e7f8c2efb4",
+			"revisionTime": "2016-07-23T06:10:19Z"
+		},
+		{
+			"checksumSHA1": "bc4H+6KKPRabvHMBae/Xn0oy49I=",
+			"path": "github.com/minio/sha256-simd",
+			"revision": "f675151bb5e19dc10d7430bd9d4ef5e7d1b5521f",
+			"revisionTime": "2019-09-17T23:37:21Z"
+		},
+		{
 			"checksumSHA1": "2jsbDTvwxafPp7FJjJ8IIFlTLjs=",
 			"path": "github.com/mohae/deepcopy",
 			"revision": "c48cc78d482608239f6c4c92a4abd87eb8761c90",
 			"revisionTime": "2017-09-29T03:49:55Z"
+		},
+		{
+			"checksumSHA1": "nWWz+Iygb6E0NVfTZSMMtynwgCM=",
+			"path": "github.com/mr-tron/base58/base58",
+			"revision": "b1dd383fd2c02d7933db93f157e339f1899b5163",
+			"revisionTime": "2019-11-21T09:29:36Z"
+		},
+		{
+			"checksumSHA1": "maHY4xyjVMM1Sotm+FDr0V2t8dE=",
+			"path": "github.com/multiformats/go-base32",
+			"revision": "a9c2755c3d1672dbe6a7e4a5d182169fa30b6a8e",
+			"revisionTime": "2019-02-26T18:46:57Z"
+		},
+		{
+			"checksumSHA1": "vfGE7sDWAV5D3obw31bVaPMAvao=",
+			"path": "github.com/multiformats/go-multibase",
+			"revision": "b84fc17b7761c4c48606130d9a203faac6878797",
+			"revisionTime": "2019-07-26T18:56:38Z"
+		},
+		{
+			"checksumSHA1": "xhXOp4UwTsG5ukAoZ7ZBuqRxv2c=",
+			"path": "github.com/multiformats/go-multihash",
+			"revision": "572861f2e56f271cbbcab31a85a24453e676c8c8",
+			"revisionTime": "2019-12-03T01:47:29Z"
 		},
 		{
 			"checksumSHA1": "FYM/8R2CqS6PSNAoKl6X5gNJ20A=",
@@ -419,6 +463,12 @@
 			"revisionTime": "2016-06-18T19:32:21Z"
 		},
 		{
+			"checksumSHA1": "Y4AYnHgYmDrvajlG74uoNr11P7U=",
+			"path": "github.com/spaolacci/murmur3",
+			"revision": "539464a789e9b9f01bc857458ffe2c5c1a2ed382",
+			"revisionTime": "2019-03-17T07:47:36Z"
+		},
+		{
 			"checksumSHA1": "I7gkZEZn9PKJ+dzuBYLbFIUzNO4=",
 			"path": "github.com/status-im/keycard-go/derivationpath",
 			"revision": "8537d3370df43a30a3d450c023783d2e43432b89",
@@ -537,6 +587,12 @@
 			"path": "github.com/wsddn/go-ecdh",
 			"revision": "48726bab92085232373de4ec5c51ce7b441c63a0",
 			"revisionTime": "2016-12-11T03:23:59Z"
+		},
+		{
+			"checksumSHA1": "K5O+57CNS1+isvmgo+oKwYc10yk=",
+			"path": "golang.org/x/crypto/blake2s",
+			"revision": "becbf705a91575484002d598f87d74f0002801e7",
+			"revisionTime": "2019-12-04T20:12:52Z"
 		},
 		{
 			"checksumSHA1": "TT1rac6kpQp2vz24m5yDGUNQ/QQ=",
@@ -881,5 +937,5 @@
 			"revisionTime": "2017-08-11T01:42:03Z"
 		}
 	],
-	"rootPath": "github.com/ethereum/go-ethereum"
+	"rootPath": "github.com/Tau-Coin/taucoin-mobile-mining-go"
 }
