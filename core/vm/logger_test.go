@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/core/state"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/params"
 )
 
 type dummyContractRef struct {

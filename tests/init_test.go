@@ -30,7 +30,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/params"
 )
 
 var (

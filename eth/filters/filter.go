@@ -21,13 +21,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/bloombits"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/core"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/core/bloombits"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/core/types"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/ethdb"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/event"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/rpc"
 )
 
 type Backend interface {

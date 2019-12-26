@@ -26,17 +26,17 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/external"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/accounts/scwallet"
-	"github.com/ethereum/go-ethereum/accounts/usbwallet"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/accounts"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/accounts/external"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/accounts/keystore"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/accounts/scwallet"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/accounts/usbwallet"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/crypto"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/log"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/p2p"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/p2p/enode"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/rpc"
 )
 
 const (

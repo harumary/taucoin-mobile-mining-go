@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common"
 )
 
 // ContractRef is a reference to the contract's backing object

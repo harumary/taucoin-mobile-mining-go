@@ -26,10 +26,10 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/crypto/ecies"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/crypto"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/crypto/ecies"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/rlp"
 )
 
 // Envelope represents a clear-text data packet to transmit through the Whisper

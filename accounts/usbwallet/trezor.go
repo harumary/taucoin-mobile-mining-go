@@ -27,12 +27,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/usbwallet/trezor"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/accounts"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/accounts/usbwallet/trezor"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common/hexutil"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/core/types"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/log"
 	"github.com/golang/protobuf/proto"
 )
 

@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/core/types"
 )
 
 var (

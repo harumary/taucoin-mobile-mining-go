@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/rlp"
 )
 
 var (

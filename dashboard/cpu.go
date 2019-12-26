@@ -21,7 +21,7 @@ package dashboard
 import (
 	"syscall"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/log"
 )
 
 // getProcessCPUTime retrieves the process' CPU time since program startup.

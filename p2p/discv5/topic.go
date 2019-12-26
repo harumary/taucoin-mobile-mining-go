@@ -23,8 +23,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common/mclock"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/log"
 )
 
 const (

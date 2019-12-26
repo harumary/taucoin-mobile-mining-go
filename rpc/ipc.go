@@ -20,8 +20,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/log"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/p2p/netutil"
 )
 
 // ServeListener accepts connections on l, serving JSON-RPC on them.

@@ -19,10 +19,10 @@ package simulations
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/p2p"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/p2p/enode"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/p2p/enr"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/rpc"
 )
 
 // NoopService is the service that does not do anything

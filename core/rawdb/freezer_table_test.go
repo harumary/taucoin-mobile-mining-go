@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/metrics"
 )
 
 func init() {

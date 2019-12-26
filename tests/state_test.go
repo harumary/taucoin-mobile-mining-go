@@ -24,8 +24,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/cmd/utils"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/core/vm"
 )
 
 func TestState(t *testing.T) {

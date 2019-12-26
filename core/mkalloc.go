@@ -34,8 +34,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/core"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

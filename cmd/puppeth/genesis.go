@@ -23,12 +23,12 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	math2 "github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common/hexutil"
+	math2 "github.com/Tau-Coin/taucoin-mobile-mining-go/common/math"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/consensus/ethash"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/core"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/params"
 )
 
 // alethGenesisSpec represents the genesis specification format used by the

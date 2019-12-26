@@ -22,15 +22,15 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common/hexutil"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common/math"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/core"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/core/rawdb"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/core/state"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/core/vm"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/crypto"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/params"
 )
 
 // VMTest checks EVM execution without block or transaction context.

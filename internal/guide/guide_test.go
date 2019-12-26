@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/accounts/keystore"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/core/types"
 )
 
 // Tests that the account management snippets work correctly.

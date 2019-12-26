@@ -24,9 +24,9 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/metrics/exp"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/log"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/metrics"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/metrics/exp"
 	"github.com/fjl/memsize/memsizeui"
 	colorable "github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"

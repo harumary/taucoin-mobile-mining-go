@@ -20,12 +20,12 @@ import (
 	"encoding/binary"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/contracts/checkpointoracle"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/accounts/abi/bind"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/contracts/checkpointoracle"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/crypto"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/log"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/params"
 )
 
 // checkpointOracle is responsible for offering the latest stable checkpoint

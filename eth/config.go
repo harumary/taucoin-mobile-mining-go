@@ -24,13 +24,13 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/eth/gasprice"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/consensus/ethash"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/core"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/eth/downloader"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/eth/gasprice"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/miner"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/params"
 )
 
 // DefaultConfig contains default settings for use on the Ethereum main net.

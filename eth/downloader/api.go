@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	ethereum "github.com/Tau-Coin/taucoin-mobile-mining-go"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/event"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

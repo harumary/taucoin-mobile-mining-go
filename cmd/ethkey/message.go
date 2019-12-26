@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/accounts/keystore"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/cmd/utils"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

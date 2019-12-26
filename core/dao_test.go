@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/consensus/ethash"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/core/rawdb"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/core/vm"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/cmd/utils"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/consensus/ethash"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/eth"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

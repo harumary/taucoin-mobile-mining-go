@@ -25,10 +25,10 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/core/rawdb"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/core/state"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/crypto"
 )
 
 var dumper = spew.ConfigState{Indent: "    "}

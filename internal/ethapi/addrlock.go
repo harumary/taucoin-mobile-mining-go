@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common"
 )
 
 type AddrLocker struct {

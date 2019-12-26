@@ -22,8 +22,8 @@ package node
 import (
 	"reflect"
 
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/p2p"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/rpc"
 )
 
 // NoopService is a trivial implementation of the Service interface.

@@ -20,11 +20,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common/mclock"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/core"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/ethdb"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/light"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/log"
 )
 
 // LesOdr implements light.OdrBackend

@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/metrics/prometheus"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/metrics"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/metrics/prometheus"
 )
 
 type exp struct {

@@ -21,15 +21,15 @@ import (
 	"net"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/les/flowcontrol"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common/mclock"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/core/rawdb"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/crypto"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/eth"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/les/flowcontrol"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/p2p"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/p2p/enode"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/rlp"
 )
 
 const protocolVersion = lpv2

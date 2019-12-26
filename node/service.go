@@ -20,12 +20,12 @@ import (
 	"path/filepath"
 	"reflect"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/accounts"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/core/rawdb"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/ethdb"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/event"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/p2p"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/rpc"
 )
 
 // ServiceContext is a collection of service independent options inherited from

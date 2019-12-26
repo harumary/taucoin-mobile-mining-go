@@ -22,11 +22,11 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/rules/deps"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/internal/ethapi"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/log"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/signer/core"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/signer/rules/deps"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/signer/storage"
 	"github.com/robertkrimen/otto"
 )
 

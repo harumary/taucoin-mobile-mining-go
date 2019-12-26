@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/accounts/abi"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common"
 )
 
 func TestMakeTopics(t *testing.T) {

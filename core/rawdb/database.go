@@ -23,11 +23,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/leveldb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/ethdb"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/ethdb/leveldb"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/ethdb/memorydb"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/log"
 	"github.com/olekukonko/tablewriter"
 )
 

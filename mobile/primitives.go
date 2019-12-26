@@ -22,7 +22,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common"
 )
 
 // Strings represents s slice of strs.

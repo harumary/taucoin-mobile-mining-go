@@ -45,12 +45,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/crypto"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/p2p"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/p2p/enode"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/p2p/simulations"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/p2p/simulations/adapters"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

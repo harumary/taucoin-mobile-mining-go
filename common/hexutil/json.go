@@ -1,4 +1,4 @@
-// Copyright 2016 The go-ethereum Authors
+// Copyright 2018 The go-ethereum Authors
 // This file is part of the go-ethereum library.
 //
 // The go-ethereum library is free software: you can redistribute it and/or modify
@@ -143,6 +143,122 @@ func UnmarshalFixedUnprefixedText(typname string, input, out []byte) error {
 	return nil
 }
 
+//OneByte marshals/unmarshals as a JSON string with 0x prefix.
+type OneByte [1]byte
+
+// MarshalText implements encoding.TextMarshaler
+func (b OneByte) MarshalText() ([]byte, error) {
+	result := make([]byte, len(b)*2+2)
+	copy(result, `0x`)
+	hex.Encode(result[2:], b[0:])
+	return result, nil
+}
+
+// UnmarshalJSON implements json.Unmarshaler.
+func (b *OneByte) UnmarshalJSON(input []byte) error {
+	if !isString(input) {
+		return errNonString(bytesT)
+	}
+	return wrapTypeError(b.UnmarshalText(input[1:len(input)-1]), bytesT)
+}
+
+// UnmarshalText implements encoding.TextUnmarshaler.
+func (b *OneByte) UnmarshalText(input []byte) error {
+	raw, err := checkText(input, true)
+	if err != nil {
+		return err
+	}
+	dec := make([]byte, len(raw)/2)
+	if _, err = hex.Decode(dec, raw); err != nil {
+		err = mapError(err)
+	} else {
+		copy(b[0:], dec)
+	}
+	return err
+}
+
+// String returns the hex encoding of b.
+func (b OneByte) String() string {
+	return Encode(b[0:])
+}
+
+// ImplementsGraphQLType returns true if Bytes implements the specified GraphQL type.
+func (b OneByte) ImplementsGraphQLType(name string) bool { return name == "OneByte" }
+
+// UnmarshalGraphQL unmarshals the provided GraphQL query data.
+func (b *OneByte) UnmarshalGraphQL(input interface{}) error {
+	var err error
+	switch input := input.(type) {
+	case string:
+		data, err := Decode(input)
+		if err != nil {
+			return err
+		}
+		copy(b[0:], data)
+	default:
+		err = fmt.Errorf("Unexpected type for Bytes: %v", input)
+	}
+	return err
+}
+
+// Byte32 marshals/unmarshals as a JSON string with 0x prefix.
+type Byte32 [32]byte
+
+// MarshalText implements encoding.TextMarshaler
+func (b Byte32) MarshalText() ([]byte, error) {
+	result := make([]byte, len(b)*2+2)
+	copy(result, `0x`)
+	hex.Encode(result[2:], b[0:])
+	return result, nil
+}
+
+// UnmarshalJSON implements json.Unmarshaler.
+func (b *Byte32) UnmarshalJSON(input []byte) error {
+	if !isString(input) {
+		return errNonString(bytesT)
+	}
+	return wrapTypeError(b.UnmarshalText(input[1:len(input)-1]), bytesT)
+}
+
+// UnmarshalText implements encoding.TextUnmarshaler.
+func (b *Byte32) UnmarshalText(input []byte) error {
+	raw, err := checkText(input, true)
+	if err != nil {
+		return err
+	}
+	dec := make([]byte, len(raw)/2)
+	if _, err = hex.Decode(dec, raw); err != nil {
+		err = mapError(err)
+	} else {
+		copy(b[0:], dec)
+	}
+	return err
+}
+
+// String returns the hex encoding of b.
+func (b Byte32) String() string {
+	return Encode(b[0:])
+}
+
+// ImplementsGraphQLType returns true if Bytes implements the specified GraphQL type.
+func (b Byte32) ImplementsGraphQLType(name string) bool { return name == "Byte32" }
+
+// UnmarshalGraphQL unmarshals the provided GraphQL query data.
+func (b *Byte32) UnmarshalGraphQL(input interface{}) error {
+	var err error
+	switch input := input.(type) {
+	case string:
+		data, err := Decode(input)
+		if err != nil {
+			return err
+		}
+		copy(b[0:], data)
+	default:
+		err = fmt.Errorf("Unexpected type for Bytes: %v", input)
+	}
+	return err
+}
+
 // Big marshals/unmarshals as a JSON string with 0x prefix.
 // The zero value marshals as "0x0".
 //
@@ -283,6 +399,69 @@ func (b *Uint64) UnmarshalGraphQL(input interface{}) error {
 		return b.UnmarshalText([]byte(input))
 	case int32:
 		*b = Uint64(input)
+	default:
+		err = fmt.Errorf("Unexpected type for Long: %v", input)
+	}
+	return err
+}
+
+type Uint32 uint32
+
+// MarshalText implements encoding.TextMarshaler.
+func (b Uint32) MarshalText() ([]byte, error) {
+	buf := make([]byte, 2, 10)
+	copy(buf, `0x`)
+	buf = strconv.AppendUint(buf, uint64(b), 16)
+	return buf, nil
+}
+
+// UnmarshalJSON implements json.Unmarshaler.
+func (b *Uint32) UnmarshalJSON(input []byte) error {
+	if !isString(input) {
+		return errNonString(uint64T)
+	}
+	return wrapTypeError(b.UnmarshalText(input[1:len(input)-1]), uint64T)
+}
+
+// UnmarshalText implements encoding.TextUnmarshaler
+//TODO: decodeNibble should return uint32 type
+func (b *Uint32) UnmarshalText(input []byte) error {
+	raw, err := checkNumberText(input)
+	if err != nil {
+		return err
+	}
+	if len(raw) > 8 {
+		return ErrUint32Range
+	}
+	var dec uint64
+	for _, byte := range raw {
+		nib := decodeNibble(byte)
+		if nib == badNibble {
+			return ErrSyntax
+		}
+		dec *= 16
+		dec += nib
+	}
+	*b = Uint32(dec)
+	return nil
+}
+
+// String returns the hex encoding of b.
+func (b Uint32) String() string {
+	return EncodeUint64(uint64(b))
+}
+
+// ImplementsGraphQLType returns true if Uint64 implements the provided GraphQL type.
+func (b Uint32) ImplementsGraphQLType(name string) bool { return name == "Uint32" }
+
+// UnmarshalGraphQL unmarshals the provided GraphQL query data.
+func (b *Uint32) UnmarshalGraphQL(input interface{}) error {
+	var err error
+	switch input := input.(type) {
+	case string:
+		return b.UnmarshalText([]byte(input))
+	case int32:
+		*b = Uint32(input)
 	default:
 		err = fmt.Errorf("Unexpected type for Long: %v", input)
 	}

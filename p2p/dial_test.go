@@ -25,11 +25,11 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/internal/testlog"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/log"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/p2p/enode"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/p2p/enr"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/p2p/netutil"
 )
 
 func init() {

@@ -28,9 +28,9 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common/math"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -26,7 +26,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

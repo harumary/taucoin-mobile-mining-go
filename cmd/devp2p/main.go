@@ -21,8 +21,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/internal/debug"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

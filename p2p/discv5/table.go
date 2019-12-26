@@ -29,7 +29,7 @@ import (
 	"net"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common"
 )
 
 const (

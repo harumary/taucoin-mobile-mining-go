@@ -20,7 +20,7 @@ package testlog
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/log"
 )
 
 // Logger returns a logger which logs to the unit test log of t.

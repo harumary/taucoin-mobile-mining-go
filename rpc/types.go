@@ -22,7 +22,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/Tau-Coin/taucoin-mobile-mining-go/common/hexutil"
 )
 
 // API describes the set of methods offered over the RPC interface
